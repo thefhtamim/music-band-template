@@ -58,7 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1em;
+    padding: 0em;
     text-align: center; 
     
     @media (min-width: 100%) {
