@@ -33,7 +33,7 @@ a {
 /////////////////////////////
 //button-4 
 ///////////////////////////
-.a  {
+.nav-content a  {
   border: 1px solid;
   overflow: hidden;
   position: relative;
@@ -57,7 +57,7 @@ a {
   }
 }
 
-.a:hover {
+.nav-content a:hover {
   
   &:after {
     left: 120%;
