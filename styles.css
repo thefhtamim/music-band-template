@@ -25,8 +25,8 @@ a {
   text-decoration: none;
 }
 .nav-content a:hover {
-  color: red;
-    background-color: yellow;
+  color: black;
+    background-color: white;
   text-decoration: underline;
 }
 .header img {
