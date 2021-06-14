@@ -26,6 +26,7 @@ a {
 }
 .nav-content a:hover {
   color: red;
+    background-color: yellow;
   text-decoration: underline;
 }
 .header img {
