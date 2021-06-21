@@ -53,75 +53,6 @@ body {
     width: 100%;
 }
 
-// Button wrap
-.container { 
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0em;
-    text-align: center; 
-    
-    @media (min-width: 100%) {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-h1 {
-  color: $white;
-  font-size: 1.25em;
-  font-weight: 100%;
-  margin: 0 0 0em;
-  
-  @media (min-width: 100%) {
-    font-size: 1.75em;
-  }
-  
-  @media (min-width: 100%) {
-    font-size: 3.25em;
-  }
-  
-  @media (min-width: 100%) {
-    font-size: 5.25em;
-    margin: 0 0 0em;
-  }
-}
-
-p {
-  color: $white;
-  font-size: 12px;
-  
-  @media(min-width: 100%) {
-    left: 50%;
-    position: absolute; 
-    transform: translate(-50%, 0);
-    top: 90%;
-  }
-  
-  @media(max-height: 100%) {
-    left: 0;
-    position: relative;
-    top: 0;
-    transform: translate(0, 0);
-  }
-  
-  a {
-    background: rgba($white, 0);
-    border-bottom: 0px solid;
-    color: $white;
-    line-height: 0;
-    padding: 0em;
-    text-decoration: none;
-    
-    &:hover {
-      background: rgba($white, 1);
-      color: $red;
-    }
-  }
-}
-//button styles
-
 
 //default button
 .a {
@@ -189,18 +120,6 @@ p {
   }
 }
 
-.a:hover {
-  background: rgba($red, 0);
-  font-weight: 900;
-  letter-spacing: 1px;
-  
-  rect {
-    stroke-width: 5;
-    stroke-dasharray: 15, 310;
-    stroke-dashoffset: 48;
-    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-}
 
 
 
@@ -374,41 +293,18 @@ section{
 
 
 
-body {
-   margin: 0;
-   padding: 0;
-   ...
-}
 
 .footer-links {
   display: inline-block;
   margin-top: 45px;
   margin-bottom: 40px;
 }
-.about {
-  margin-top: 25px;
-  display: inline-block;
-  font-size: x-large;
-  font-weight: bold;
-  max-width: 860px;
-  padding: 0 0 20px 0px;
-  word-break: break-all;
-  border-bottom: white 3px solid;
-}
-.about-live {
-  margin: 25px 0;
-  background-color: #333333;
-  display: inline-block;
-  font-size: large;
-  max-width: 860px;
-  padding: 15px;
-}
+
+
 a {
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
-.mail-section {
-  padding-left: 50px;
-}
+
